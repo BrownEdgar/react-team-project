@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-item{
+    flex: 0 0 45%;
+    margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25)0px 54px 55px;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 12px;
+    position: relative;
+}
+.buttonsCont{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonsCont button{
+    width: 33%;
+    height: 50px;
+}
