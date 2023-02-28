@@ -24,4 +24,5 @@ export default function App() {
 			<Component data={data} deleteByid={deleteByid}/>
 		</div>
 	)
+
 }
