@@ -27,6 +27,7 @@ export default function App() {
     setRandom(data[Math.floor(Math.random() * data.length)]);
   };
   const newPerson = () => {
+    setRandom([])
     const coppy = [...data];
     coppy.push(coppy[Math.floor(Math.random() * data.length)]);
     setData(coppy);
