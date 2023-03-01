@@ -9,7 +9,7 @@ export default function Component(props) {
       <div className="flex">
         {props.data.map((elem) => {
           return (
-            <div key={Date.now() + Math.random() * 1e100} className="flex-item">
+            <div key={Date.now() + Math.random() * 1e2} className="flex-item">
               <h1>Name - {elem.name}</h1>
               <h2>Age - {elem.age}</h2>
               <h2>Email - {elem.email}</h2>

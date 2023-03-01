@@ -44,7 +44,12 @@ export default function App() {
 	return (
 		<div>
 			<Component data={data} deleteById={deleteById} />
-			<Buttons deleteAll={deleteAll} sortByAge={sortByAge} onlyOneStay={onlyOneStay} addPerson={addPerson} />
+			<Buttons 
+				deleteAll={deleteAll} 
+				sortByAge={sortByAge} 
+				onlyOneStay={onlyOneStay} 
+				addPerson={addPerson} 
+			/>
 
 		</div >
 	)
