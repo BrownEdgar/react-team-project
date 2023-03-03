@@ -7,21 +7,18 @@ export default function App() {
 	const [count, setCount] = useState(1)
 
 
-	// useEffect(() => {
+	useEffect(() => {
 
-	// 	const getData = () => {
-	// 		fetch(`https://jsonplaceholder.typicode.com/todos/${count}`)
-	// 			.then(res => res.json())
-	// 			.then(data => setData(data))
-	// 	}
-	// 	getData()
-	// }, [count])
+		const getData = () => {
+			fetch(`https://jsonplaceholder.typicode.com/todos/${count}`)
+				.then(res => res.json())
+				.then(data => setData(data))
+		}
+		getData()
+	}, [count])
 	const handleClick = () => { 
-	
 
-		setCount(count + 3) 
-		setCount(count + 30) 
-
+		setCount(count + 1) 
 	 }
 	return (
 		<div>
@@ -31,7 +28,7 @@ export default function App() {
 				)
 			})} */}
 
-			<h1>{count}</h1>
+			<h1>get Post N{count} every <kbd>click</kbd> time with fetch</h1>
 			<pre>{JSON.stringify(data,null,1)}</pre>
 			<button onClick={ handleClick}>add count</button>
 		</div>
