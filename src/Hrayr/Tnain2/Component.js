@@ -6,7 +6,7 @@ export default function Component(props) {
   return (
     props.data.map(elem => {
       return(
-        <div className={s.box}>
+        <div className={s.box} key={elem.id}>
         <h2>Name:{elem.username}</h2>
         <h2>Phone:<br/>{elem.phone}</h2>
         <h2>Email:<br/>{elem.email}</h2>
