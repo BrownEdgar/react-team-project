@@ -8,7 +8,7 @@ export default function Component({data}) {
             </>
         )
     }
-
+ 
   return (
     <div className='flex'>
         {data.map(elem=>{
