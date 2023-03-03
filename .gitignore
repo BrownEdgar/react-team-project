@@ -11,6 +11,8 @@
 # production
 /build
 
+src/Edgar/test/*
+
 # misc
 .DS_Store
 .env.local

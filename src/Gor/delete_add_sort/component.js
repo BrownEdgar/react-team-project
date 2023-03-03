@@ -14,7 +14,7 @@ function Component(props) {
               X
             </button>
             <h2>Name: {elem.firstName}</h2>
-            <h3>email: {elem.email}</h3>
+            <h3>Email: {elem.email}</h3>
             <h4>Age: {elem.age}</h4>
           </div>
         );

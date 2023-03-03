@@ -28,9 +28,15 @@ function App() {
       age: 15,
       email: "blake@gmail.com",
     },
+    {
+      id: 5,
+      firstName: "Jake",
+      age: 15,
+      email: "Jake@gmail.com",
+    },
   ]);
   const anotherPerson = {
-    id: 5,
+    id: 6,
     firstName: "Andrew",
     age: 21,
     email: "andrew@gmail.com",

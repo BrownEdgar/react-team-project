@@ -14,7 +14,7 @@
 .flex-item {
   flex: 0 1 30%;
   margin: 16px;
-  background-color: paleturquoise;
+  background-color: rgb(161, 243, 243);
   padding: 12px;
   border-radius: 12px;
   position: relative;
