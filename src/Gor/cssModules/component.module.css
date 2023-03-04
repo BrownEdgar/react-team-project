@@ -1,0 +1,45 @@
+.user {
+  background-color: orange;
+}
+
+.flex {
+  background-color: rgb(80, 80, 133);
+  border-radius: 15px;
+  background-color: rgb(80, 80, 133);
+  border-radius: 15px;
+  width: 35%;
+}
+h1 {
+  text-align: center;
+}
+
+.user {
+  background-color: #351b64;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.user h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+.show {
+  width: 12%;
+  height: 49%;
+}
+
+.close {
+  background-color: #351b64;
+  border: none;
+}
