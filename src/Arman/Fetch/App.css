@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: rgb(241, 218, 185);
+}
+.go{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    width: 700px;
+    margin: 0 auto;
+    background-color: darkseagreen;
+    border-radius: 22px 10px 22px 10px;
+}
