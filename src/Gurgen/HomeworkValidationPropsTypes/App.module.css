@@ -1,0 +1,8 @@
+.main{
+    border: 2px dashed burlywood ;
+    width: max-content;
+    padding: 10px 20px;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px auto;
+}

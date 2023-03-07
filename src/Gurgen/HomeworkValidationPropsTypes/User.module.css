@@ -1,0 +1,20 @@
+.user{
+    border: 1px solid silver;
+    position: relative;
+    width: 200px;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: royalblue;
+    text-shadow: 1px 1px 2px royalblue;
+    transition: 500ms ease;
+}
+.close:hover{
+    text-shadow: unset;
+    transform: scale(1.2);
+    color: red;
+    text-decoration: underline;
+}
