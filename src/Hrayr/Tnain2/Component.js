@@ -1,5 +1,4 @@
 import React from 'react'
-
 import s from './Component.module.css'
 
 export default function Component(props) {

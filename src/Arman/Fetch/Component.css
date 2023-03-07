@@ -1,0 +1,48 @@
+flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.boo{
+ background-color: lightblue;
+ padding: 40px;
+ flex: 0 1 40%;
+ border-radius: 25px;
+ position: relative;
+ box-shadow: rgba(0, 0, 0, 0.40) 20px 40px 42px -1px
+}
+
+
+.do{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(185, 166, 119);
+    border-radius: 25px;
+}
+.do:hover{
+    background-color: darkgrey;
+    color: darkcyan;
+}
+h2,h3{
+    margin: 6px;
+}
+
+.remove{
+    position: absolute;
+    top: 8px;
+    right: 13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 19px;
+    transition: background-color 300ms ease;
+}
+
+.remove:hover{
+    background-color: red;
+}
