@@ -1,11 +1,12 @@
 import React from 'react'
 import s from "./Component.module.css";
 import avatar from './img/avatar.svg'
+import PropTypes from 'prop-types';
 
-export default function Component(props) {
+export default function Component({ data }) {
     return (
         <div className={s.flex}>
-            {props.data.map(elem => {
+            {data.map(elem => {
                 return (
                     <div className={s.item} key={elem.id}>
                         <div className={s.left}>
@@ -24,4 +25,31 @@ export default function Component(props) {
             })}
         </div >
     )
+}
+
+Component.propTypes = {
+    data: PropTypes.arrayOf(PropTypes.shape({
+        address: PropTypes.shape({
+            city: PropTypes.string,
+            geo: PropTypes.shape({
+                lat: PropTypes.string,
+                lng: PropTypes.string,
+            }),
+            street: PropTypes.string,
+            suite: PropTypes.string,
+            zipcode: PropTypes.string
+        }),
+        company: PropTypes.shape({
+            bs: PropTypes.string,
+            catchPhrase: PropTypes.string,
+            name: PropTypes.string
+        }),
+        email: PropTypes.string,
+        id: PropTypes.number,
+        name: PropTypes.string,
+        phone: PropTypes.string,
+        username: PropTypes.string,
+        website: PropTypes.string,
+
+    }))
 }
